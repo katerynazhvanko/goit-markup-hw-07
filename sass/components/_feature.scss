@@ -1,0 +1,17 @@
+.feature{padding-top: 94px;}
+.feature__list{display: flex;}
+.feature__item{flex-basis: calc((100% - 90px) / 4); padding: 0; margin-right: 30px;
+    &:last-child{margin-right: 0;}}
+.feature__picture{
+    @include display;
+    margin-bottom: 30px;
+    height: 120px;
+    border-radius: 4px;
+    background-color: $secondoryColor;}
+.feature__title{
+    margin-bottom: 10px;
+    margin-top: 0;
+    color: $titleColor;
+    @include font(700,14,1.4);
+    text-transform: uppercase;}
+.feature__text{@include font(400,14,1.7);}

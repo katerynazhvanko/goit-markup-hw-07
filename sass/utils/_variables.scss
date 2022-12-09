@@ -1,0 +1,22 @@
+@mixin font($fw,$fs,$lh,$ls:0.03){
+    font-weight: $fw;
+    font-size: $fs+px;
+    line-height: $lh;
+    letter-spacing:$ls+em;
+}
+$backgroundColor:#FFFFFF;
+$titleColor:#212121;
+$textColor:#757575;
+$accentColor:#2196F3;
+$iconFill:#AFB1B8;
+$footerColor:#2F303A;
+$buttonHover:#188CE8;
+$animation:cubic-bezier(0.4, 0, 0.2, 1);
+$borderColor:#EEEEEE;
+$blank:#FFFFFF;
+$secondoryColor:#F5F4FA;
+
+@mixin display{
+    display: flex;
+    align-items: center;
+    justify-content: center;}

@@ -1,0 +1,32 @@
+.team{
+    padding-top: 94px;
+    margin-top: 0;
+    background-color:$secondoryColor;}
+.team__name{margin-bottom: 10px;
+    color:$titleColor;
+    @include font(500,16,1.2);
+    text-align: center;}
+.team__list{@include display;}
+.team__item{
+    margin-right: 30px;
+    width: 270px;
+    box-shadow:0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 0px 0px 4px 4px;
+    background-color: $backgroundColor;
+    &:last-child{margin-right: 0;}}
+.team__speciality{
+    @include font(400,16,1.2); 
+    text-align: center;}
+.team__text{padding-top: 30px; padding-bottom: 30px;}
+.team-sub__list{
+    @include display;
+    gap: 10px;
+    margin-top: 12px;}
+.team-sub__link{
+    @include display;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    fill:$iconFill;
+    transition:fill 250ms $animation, background-color 250ms $animation;
+    &:hover, &:focus {fill:$blank; background-color: $accentColor;}}

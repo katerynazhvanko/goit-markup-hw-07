@@ -1,0 +1,23 @@
+.banner{padding-top: 200px;
+    padding-bottom: 200px;
+    text-align: center;
+    max-width:1600px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: linear-gradient(to right, rgba(47,48,58,0.4), rgba(47,48,58,0.4)), url(../image/banner.jpg);
+    background-color: $footerColor;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;}
+.banner__title{
+    margin-top: 0;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 0;
+    margin-bottom: 30px;
+    width: 700px;
+    color:$backgroundColor;
+    @include font(900,44,1.4,0.06);
+    text-transform: uppercase;}
+.banner__btn{padding: 10px 30px;}

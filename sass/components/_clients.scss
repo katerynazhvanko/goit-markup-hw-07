@@ -1,0 +1,18 @@
+.clients{
+    padding-top: 94px;
+    margin-top: 0;}
+.clients__list{@include display;}
+.clients__item{
+    margin-right: 30px; 
+    width: 170px; 
+    height: 92px;
+    &:last-child{margin-right: 0;}}
+.clients__link{
+    @include display;
+    width: 100%;
+    height: 100%;
+    border: 1px solid $iconFill;
+    border-radius: 4px;
+    fill:$iconFill;
+    transition: fill 250ms $animation, border 250ms $animation;
+    &:hover, &:focus {border: 1px solid $accentColor; fill:$accentColor;}}
